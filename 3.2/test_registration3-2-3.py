@@ -4,7 +4,7 @@ import time
 import unittest
 
 
-def test_case(link):
+def wtf_case(link):
     browser = webdriver.Chrome()
     browser.get(link)
 
@@ -26,12 +26,12 @@ def test_case(link):
 
 class TestRegistration(unittest.TestCase):
     def test_registration1(self):
-        self.assertEqual(test_case("http://suninjuly.github.io/registration1.html"), \
+        self.assertEqual(wtf_case("http://suninjuly.github.io/registration1.html"), \
                          "Congratulations! You have successfully registered!", \
                          "Should be absolute value of a number")
 
     def test_registration2(self):
-        self.assertEqual(test_case("http://suninjuly.github.io/registration2.html"), \
+        self.assertEqual(wtf_case("http://suninjuly.github.io/registration2.html"), \
                          "Congratulations! You have successfully registered!", \
                          "Should be absolute value of a number")
 
