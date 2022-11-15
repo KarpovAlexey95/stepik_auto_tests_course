@@ -1,0 +1,13 @@
+1668436244749	geckodriver	INFO	Listening on 127.0.0.1:64301
+1668436246794	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64302" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\akarpov\\AppData\\Local\\Temp\\rust_mozprofileXm7xPl"
+1668436247361	Marionette	INFO	Marionette enabled
+1668436247365	Marionette	INFO	Listening on port 64314
+Read port: 64314
+WebDriver BiDi listening on ws://127.0.0.1:64302
+1668436247455	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\akarpov\\AppData\\Local\\Temp\\rust_mozprofileXm7xPl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64302/devtools/browser/c343d20e-478c-4ab1-9e12-33fbdfdfd89c
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1668436257181	Marionette	INFO	Stopped listening on port 64314
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 693: TypeError: this.tablesData[table] is undefined
+!!! error running onStopped callback: TypeError: callback is not a function
